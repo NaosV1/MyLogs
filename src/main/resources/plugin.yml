@@ -1,0 +1,4 @@
+name: MyLogs
+version: '${project.version}'
+main: fr.naos.mylogs.MyLogs
+api-version: 1.16
