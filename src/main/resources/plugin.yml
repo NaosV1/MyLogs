@@ -2,3 +2,10 @@ name: MyLogs
 version: '${project.version}'
 main: fr.naos.mylogs.MyLogs
 api-version: 1.16
+authors: [NaosV1]
+description: Stay informed about what's going on in your server
+commands:
+    mylogs:
+        description: MyLogs commands
+        permission: mylogs.use
+        permission-message: You don't have permission to use this command

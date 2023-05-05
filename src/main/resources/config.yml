@@ -1,0 +1,18 @@
+prefix: "&b[&6MyLogs&b]"
+webhook: "DISCORD_WEBHOOK_URL"
+server_name: "MyServer"
+lang: "en" # Available languages: "en", "fr"
+logs:
+  start: true
+  stop: true
+  player_join: true
+  player_leave: true
+  player_chat: true
+  player_command: true
+  blacklist_player_command: ["/home", "/sethome"]
+  player_death: true
+  player_kick: true
+  player_teleport: true
+
+
+
